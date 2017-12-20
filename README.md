@@ -21,10 +21,12 @@ directory must also be given as an argument.
 
 For unigram SVM mode, type:
 > python identifier.py unigram\_svm path/to/svm-multiclass 
+
 (In unigram SVM, existence of a letter in a sentence is a feature).
 
 For super SVM mode, type:
 > python identifier.py super\_svm path/to/svm-multiclass
+
 (In super SVM, existence and count of characters and bigram letter frequencies are taken as features).
 
 As output, the overall accuracy, accuracies for each language, microaveraged measures and macroaveraged measures are shown.
