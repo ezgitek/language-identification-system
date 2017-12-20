@@ -1,4 +1,4 @@
-(for detailed explanation, please look at Report.pdf)
+For detailed explanation, please look at Report.pdf
 
 # Language Identification System
 
@@ -15,6 +15,7 @@ The program can be run in three modes: naive Bayes, unigram SVM and super SVM. N
 
 In order to run the program in naive bayes mode, go to the directory of the python file and type:
 > python identifier.py naive\_bayes
+
 In order to run the program in SVM modes, path to the svm-multiclass
 directory must also be given as an argument. 
 
