@@ -5,7 +5,7 @@ _For detailed explanation, please look at Report.pdf_
 We implemented a language identification system in Python using Discriminating between Similar Languages (DSL) Shared Task 2015 corpus. he analysis is based on character unigrams, meaning that the identification of a language is based on letter frequencies. The hypothesis is that each language either has unique characters or use the characters with unique probabilities.
 In our corpus, there are 13 languages, each with 2000 sentences, so our cor- pus has a balanced distribution with 26000 sentences in total. The languages in question are Bulgarian, Bosnian, Czech, Argentine Spanish, Peninsular Spanish, Croatian, Indonesian, Macedonian, Malay, Brazilian Portuguese, European Portuguese, Slovak and Serbian.
 
-We mainly tried two models to solve this problem: Generative Modeling (Naive Bayes) and Discriminative Modeling (SVM). We used Cornell’s SVM multiclass library. 
+We mainly tried two models to solve this problem: Generative Modeling (Naive Bayes) and Discriminative Modeling (SVM). We implemented the Bayesian approach ourselves and used Cornell’s SVM multiclass library. 
 
 We evaluated the approaches used above with accuracy, recall, precision, F-measure.
 
